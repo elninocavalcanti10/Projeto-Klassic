@@ -3,6 +3,8 @@
   <persistence-unit name="Klassic?zeroDateTimeBehavior=convertToNullPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>bean.Cidade</class>
+    <class>bean.Lanchonete</class>
+    <class>bean.Oficina</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/Klassic?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
